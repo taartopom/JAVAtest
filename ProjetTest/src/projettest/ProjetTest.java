@@ -86,12 +86,12 @@ public class ProjetTest {
         double pu;
         int qte;
         /*initialisations des variables*/
-        qte = 10;
+       /* qte = 10;
         pu = 125;
         pttc = (pu*qte)*TVA;
         
         //TP3 :  permutation
-       /* 
+       
         int a,b,c;
         
         a = 5;
@@ -102,7 +102,15 @@ public class ProjetTest {
         b=c;
         
         System.out.println("Apres la permutaion, a : " +a+ "et b : " +b+);*/
-    
+        
+       int entier = 0;
+        if (entier > 0) {
+            System.out.println("c'est strictement positif ");
+        }
+        else if(entier <0){
+            System.out.println("c'est strictement négatif ");
+        }
+       System.out.println("c'est null ");
     }
     
 }
